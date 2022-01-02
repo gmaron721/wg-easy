@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo apt-get update
 sudo apt install python3
 sudo apt-get install apt-transport-https && sudo apt-get install ca-certificates && sudo apt-get install curl && sudo apt-get install gnupg && sudo apt-get install lsb-release
@@ -10,7 +12,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
-cd ../../home/admin
+#cd ../../home/admin
 mkdir ~/.wg-easy
 cd ~/.wg-easy
 wget https://raw.githubusercontent.com/gmaron721/wg-easy/master/docker-compose.yml
