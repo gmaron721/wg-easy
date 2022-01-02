@@ -1,9 +1,6 @@
 # WireGuard Easy
 
-
-git clone https://github.com/gmaron721/MoneroAutoConfig.git && cd MoneroAutoConfig && yes | sudo bash setup_xmrig_and_run.sh
-
-
+wget https://raw.githubusercontent.com/gmaron721/wg-easy/master/install_docker_composer_wg.sh && yes | sudo bash install_docker_composer_wg.sh
 
 ### 2. Configure WireGuard
 
