@@ -10,8 +10,6 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
-docker-compose --version
-
-mkdir ~/.wg-easy
+sudo mkdir ~/.wg-easy
 cd ~/.wg-easy
 wget https://raw.githubusercontent.com/gmaron721/wg-easy/master/docker-compose.yml
