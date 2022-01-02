@@ -1,4 +1,3 @@
-### 1. Install Docker_Composer
 
 wget https://raw.githubusercontent.com/gmaron721/wg-easy/master/install_docker_composer_wg.sh && yes | sudo bash install_docker_composer_wg.sh
 
